@@ -22,5 +22,5 @@ for root, dirs, files in os.walk(dir_path):
             # Delete the previous image
             os.remove(image_path)
 
-print("Successfully converted images to negative in directory:", dirname)
+print("Successfully converted images to negative in directory:", dir_path)
             
